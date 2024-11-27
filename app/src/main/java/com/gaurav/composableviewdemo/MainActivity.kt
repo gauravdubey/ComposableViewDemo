@@ -6,6 +6,7 @@ import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.tooling.preview.Preview
+import com.gaurav.composableviewdemo.composableview.ButtonViews
 import com.gaurav.composableviewdemo.composableview.ColumnViewWithAlignment
 import com.gaurav.composableviewdemo.composableview.RowViewsWithAlignment
 import com.gaurav.composableviewdemo.ui.theme.ComposableViewDemoTheme
@@ -17,7 +18,9 @@ class MainActivity : ComponentActivity() {
         setContent {
             ComposableViewDemoTheme {
 
-                ColumnViewWithAlignment()
+//                ColumnViewWithAlignment()
+//                RowViewsWithAlignment()
+                ButtonViews()
             }
         }
     }
