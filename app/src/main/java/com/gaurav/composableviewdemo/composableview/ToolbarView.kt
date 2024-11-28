@@ -42,7 +42,7 @@ fun SimpleToolbar() {
 @Composable
 fun CustomToolBar() {
     TopAppBar(
-        title = { Text(text = "Custom Toolbar", color = Color.White) },
+        title = { Text(text = "Composable Views", color = Color.White) },
         navigationIcon = {
             IconButton(onClick = { /* Handle navigation */ }) {
                 Icon(Icons.Default.Menu, contentDescription = "Menu", tint = Color.White)
