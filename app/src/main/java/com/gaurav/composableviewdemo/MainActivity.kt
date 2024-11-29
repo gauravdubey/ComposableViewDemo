@@ -13,6 +13,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.gaurav.composableviewdemo.composableview.CheckboxViews
 import com.gaurav.composableviewdemo.composableview.CustomToolBar
+import com.gaurav.composableviewdemo.composableview.RadioButtonViews
 import com.gaurav.composableviewdemo.ui.theme.ComposableViewDemoTheme
 
 class MainActivity : ComponentActivity() {
@@ -46,7 +47,8 @@ fun MainScreen() {
             ) {
 //                AllTextFieldViews()
 //                ImageViewExample()
-                CheckboxViews()
+//                CheckboxViews()
+                RadioButtonViews()
             }
         }
     )
