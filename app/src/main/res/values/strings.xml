@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">ComposableViewDemo</string>
+    <string-array name="country_list">
+        <item>Select the country</item>
+        <item>India</item>
+        <item>Pakistan</item>
+        <item>China</item>
+        <item>Bangladesh</item>
+        <item>Afghanistan</item>
+        <item>Nepal</item>
+        <item>Bhutan</item>
+    </string-array>
 </resources>
