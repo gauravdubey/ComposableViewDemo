@@ -13,10 +13,12 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.gaurav.composableviewdemo.composableview.AllTextFieldViews
 import com.gaurav.composableviewdemo.composableview.CheckboxViews
+import com.gaurav.composableviewdemo.composableview.CollapsableToolbarExample
 import com.gaurav.composableviewdemo.composableview.CompleteToolBarScreen
 import com.gaurav.composableviewdemo.composableview.CustomToolBar
 import com.gaurav.composableviewdemo.composableview.DialogViewExample
 import com.gaurav.composableviewdemo.composableview.DropdownMenuViews
+import com.gaurav.composableviewdemo.composableview.MyScaffoldViewExample
 import com.gaurav.composableviewdemo.composableview.RadioButtonViews
 import com.gaurav.composableviewdemo.composableview.SwitchViewsDemo
 import com.gaurav.composableviewdemo.ui.theme.ComposableViewDemoTheme
@@ -31,7 +33,9 @@ class MainActivity : ComponentActivity() {
 //                RowViewsWithAlignment()
 //                ButtonViews()
 //                MainScreen()
-                CompleteToolBarScreen()
+//                CompleteToolBarScreen()
+//                CollapsableToolbarExample()
+                MyScaffoldViewExample()
             }
         }
     }

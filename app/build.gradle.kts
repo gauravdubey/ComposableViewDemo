@@ -61,6 +61,10 @@ dependencies {
     implementation(libs.androidx.material3)
     implementation(libs.androidx.animation.core.lint)
     implementation(libs.androidx.material.icons.extended) // Use the latest version
+    implementation(libs.material3)
+    implementation(libs.ui)
+    implementation(libs.androidx.foundation)
+    implementation(libs.androidx.material3.v120)
 
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
