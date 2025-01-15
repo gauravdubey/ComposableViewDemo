@@ -13,6 +13,7 @@ import androidx.compose.material3.TopAppBar
 import androidx.compose.material3.TopAppBarDefaults
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.tooling.preview.Preview
 
 /**
  * This is the simple toolbar
@@ -38,6 +39,7 @@ fun SimpleToolbar() {
 /**
  * This is the custom toolbar
  */
+@Preview
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun CustomToolBar() {

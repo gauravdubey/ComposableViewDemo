@@ -11,13 +11,16 @@ import androidx.compose.material3.Scaffold
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
+import com.gaurav.composableviewdemo.composableview.AccompanistPermissionExample
 import com.gaurav.composableviewdemo.composableview.AllTextFieldViews
 import com.gaurav.composableviewdemo.composableview.CheckboxViews
 import com.gaurav.composableviewdemo.composableview.CollapsableToolbarExample
 import com.gaurav.composableviewdemo.composableview.CompleteToolBarScreen
+import com.gaurav.composableviewdemo.composableview.CountdownScreen
 import com.gaurav.composableviewdemo.composableview.CustomToolBar
 import com.gaurav.composableviewdemo.composableview.DialogViewExample
 import com.gaurav.composableviewdemo.composableview.DropdownMenuViews
+import com.gaurav.composableviewdemo.composableview.MultiplePermissionsExample
 import com.gaurav.composableviewdemo.composableview.MyScaffoldViewExample
 import com.gaurav.composableviewdemo.composableview.RadioButtonViews
 import com.gaurav.composableviewdemo.composableview.SwitchViewsDemo
@@ -32,10 +35,10 @@ class MainActivity : ComponentActivity() {
 //                ColumnViewWithAlignment()
 //                RowViewsWithAlignment()
 //                ButtonViews()
-//                MainScreen()
+                MainScreen()
 //                CompleteToolBarScreen()
 //                CollapsableToolbarExample()
-                MyScaffoldViewExample()
+//                MyScaffoldViewExample()
             }
         }
     }
@@ -55,13 +58,16 @@ fun MainScreen() {
                     .fillMaxSize()
                     .padding(padding)
             ) {
-                AllTextFieldViews()
+//                AllTextFieldViews()
 //                ImageViewExample()
 //                CheckboxViews()
 //                RadioButtonViews()
 //                SwitchViewsDemo()
 //                DropdownMenuViews()
 //                DialogViewExample()
+//                CountdownScreen()
+//                MultiplePermissionsExample()
+                AccompanistPermissionExample()
             }
         }
     )

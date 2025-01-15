@@ -64,7 +64,7 @@ dependencies {
     implementation(libs.material3)
     implementation(libs.ui)
     implementation(libs.androidx.foundation)
-    implementation(libs.androidx.material3.v120)
+    implementation(libs.accompanist.permissions)
 
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)

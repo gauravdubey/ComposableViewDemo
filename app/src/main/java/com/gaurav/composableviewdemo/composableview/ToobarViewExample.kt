@@ -152,7 +152,6 @@ fun ToolbarViewExample(onTextChange: (String) -> Unit) {
             navigationIconContentColor = Color.White// Title text color
         )
 
-//                elevation = 8.dp // Elevation of the toolbar
     )
 }
 
