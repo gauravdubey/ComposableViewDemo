@@ -66,6 +66,9 @@ dependencies {
     implementation(libs.androidx.foundation)
     implementation(libs.accompanist.permissions)
 
+    implementation ("androidx.compose.animation:animation:1.7.6")
+
+
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)

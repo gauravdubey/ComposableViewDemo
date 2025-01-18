@@ -24,6 +24,7 @@ import com.gaurav.composableviewdemo.composableview.MultiplePermissionsExample
 import com.gaurav.composableviewdemo.composableview.MyScaffoldViewExample
 import com.gaurav.composableviewdemo.composableview.RadioButtonViews
 import com.gaurav.composableviewdemo.composableview.SwitchViewsDemo
+import com.gaurav.composableviewdemo.composableview.shimmereffect.UserProfileScreen
 import com.gaurav.composableviewdemo.ui.theme.ComposableViewDemoTheme
 
 class MainActivity : ComponentActivity() {
@@ -67,7 +68,8 @@ fun MainScreen() {
 //                DialogViewExample()
 //                CountdownScreen()
 //                MultiplePermissionsExample()
-                AccompanistPermissionExample()
+//                AccompanistPermissionExample()
+                UserProfileScreen(true, "Gaurav Kumar", "Android Developer")
             }
         }
     )
