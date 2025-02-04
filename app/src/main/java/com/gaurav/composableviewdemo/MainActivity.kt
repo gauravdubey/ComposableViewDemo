@@ -11,20 +11,9 @@ import androidx.compose.material3.Scaffold
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import com.gaurav.composableviewdemo.composableview.AccompanistPermissionExample
-import com.gaurav.composableviewdemo.composableview.AllTextFieldViews
-import com.gaurav.composableviewdemo.composableview.CheckboxViews
-import com.gaurav.composableviewdemo.composableview.CollapsableToolbarExample
-import com.gaurav.composableviewdemo.composableview.CompleteToolBarScreen
-import com.gaurav.composableviewdemo.composableview.CountdownScreen
 import com.gaurav.composableviewdemo.composableview.CustomToolBar
-import com.gaurav.composableviewdemo.composableview.DialogViewExample
-import com.gaurav.composableviewdemo.composableview.DropdownMenuViews
-import com.gaurav.composableviewdemo.composableview.MultiplePermissionsExample
-import com.gaurav.composableviewdemo.composableview.MyScaffoldViewExample
-import com.gaurav.composableviewdemo.composableview.RadioButtonViews
-import com.gaurav.composableviewdemo.composableview.SwitchViewsDemo
-import com.gaurav.composableviewdemo.composableview.shimmereffect.UserProfileScreen
+import com.gaurav.composableviewdemo.composableview.pulseeffect.AdvancedPulseEffectDemo
+import com.gaurav.composableviewdemo.composableview.pulseeffect.PulsatingCircleView
 import com.gaurav.composableviewdemo.ui.theme.ComposableViewDemoTheme
 
 class MainActivity : ComponentActivity() {
@@ -69,7 +58,9 @@ fun MainScreen() {
 //                CountdownScreen()
 //                MultiplePermissionsExample()
 //                AccompanistPermissionExample()
-                UserProfileScreen(true, "Gaurav Kumar", "Android Developer")
+//                UserProfileScreen(true, "Gaurav Kumar", "Android Developer")
+                PulsatingCircleView()
+//                AdvancedPulseEffectDemo()
             }
         }
     )

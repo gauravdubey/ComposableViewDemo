@@ -18,6 +18,7 @@ import androidx.compose.ui.tooling.preview.Preview
 /**
  * This is the simple toolbar
  */
+@Preview
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun SimpleToolbar() {
@@ -39,7 +40,7 @@ fun SimpleToolbar() {
 /**
  * This is the custom toolbar
  */
-@Preview
+
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun CustomToolBar() {
