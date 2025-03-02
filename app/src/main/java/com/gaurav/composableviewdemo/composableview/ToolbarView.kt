@@ -45,16 +45,16 @@ fun SimpleToolbar() {
 @Composable
 fun CustomToolBar() {
     TopAppBar(
-        title = { Text(text = "Composable Views", color = Color.White) },
+        title = { Text(text = "Multiple views in LazyColumn", color = Color.White) },
         navigationIcon = {
             IconButton(onClick = { /* Handle navigation */ }) {
                 Icon(Icons.Default.Menu, contentDescription = "Menu", tint = Color.White)
             }
         },
         actions = {
-            IconButton(onClick = { /* Handle search */ }) {
+           /* IconButton(onClick = { *//* Handle search *//* }) {
                 Icon(Icons.Default.Search, contentDescription = "Search", tint = Color.White)
-            }
+            }*/
             IconButton(onClick = { /* Handle more options */ }) {
                 Icon(
                     Icons.Default.MoreVert,

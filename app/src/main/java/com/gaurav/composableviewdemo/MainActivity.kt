@@ -11,9 +11,11 @@ import androidx.compose.material3.Scaffold
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
+import com.gaurav.composableviewdemo.composableview.AllTextFieldViews
 import com.gaurav.composableviewdemo.composableview.CustomToolBar
 import com.gaurav.composableviewdemo.composableview.pulseeffect.AdvancedPulseEffectDemo
 import com.gaurav.composableviewdemo.composableview.pulseeffect.PulsatingCircleView
+import com.gaurav.composableviewdemo.multipleviewtype.SocialMediaFeeds
 import com.gaurav.composableviewdemo.ui.theme.ComposableViewDemoTheme
 
 class MainActivity : ComponentActivity() {
@@ -59,8 +61,9 @@ fun MainScreen() {
 //                MultiplePermissionsExample()
 //                AccompanistPermissionExample()
 //                UserProfileScreen(true, "Gaurav Kumar", "Android Developer")
-                PulsatingCircleView()
+//                PulsatingCircleView()
 //                AdvancedPulseEffectDemo()
+                SocialMediaFeeds()
             }
         }
     )
