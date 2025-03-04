@@ -65,9 +65,11 @@ dependencies {
     implementation(libs.material3)
     implementation(libs.ui)
     implementation(libs.androidx.foundation)
-    implementation(libs.accompanist.permissions)
     implementation (libs.androidx.animation)
     implementation(libs.coil.compose)
+
+    implementation(libs.accompanist.permissions)
+    implementation (libs.accompanist.swiperefresh)
 
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
