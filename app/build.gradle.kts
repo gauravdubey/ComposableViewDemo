@@ -70,6 +70,8 @@ dependencies {
 
     implementation(libs.accompanist.permissions)
     implementation (libs.accompanist.swiperefresh)
+    //ViewModel
+    implementation(libs.androidx.lifecycle.viewmodel.compose)
 
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
